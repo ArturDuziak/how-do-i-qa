@@ -10,9 +10,10 @@ context 'Does the Test#3' do
         within(first('table tr'))do
             
     end
+
     expect(page).to have_css('.highlighted')
     
-        #expect(first('table tr')).to have_css('.highlighted')
+        expect(first('table tr')).to have_css('.highlighted')
         #all('table tr').last.click
 
     end
